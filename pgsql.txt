@@ -1,1 +1,2 @@
 SELECT version();
+CREATE TABLE cars(id VARCHAR,name TEXT,model TEXT,year INT);

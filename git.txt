@@ -2,3 +2,31 @@ git --version
 git config --global user.name
 git config --global user.email
 git init
+git status
+git add git.txt
+git status
+git add --all / git add -A
+git commit -m "message"
+git log
+git help --all
+(SHIFT + g), q
+git branch branch_name 
+git checkout branch_name
+git checkout -b branch_name(if not exist)
+git merge branch_name( you are in master branch)
+git branch -d branch_name
+git merge --abort
+git remote add origin 'url'
+git push --set-upstream origin master
+pull=fetch+merge
+git fetch origin
+git status
+git log origin/master(to check where you are behind)
+git diff origin/master
+git merge origin/master
+git pull origin
+git branch -a
+git branch -r
+
+#github work flow
+#github pages
